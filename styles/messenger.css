@@ -1,0 +1,35 @@
+.messenger{
+    width: 1440px;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+}
+
+.messenger__block{
+    width: 1264px;
+    display: flex;
+}
+
+.messenger__info{
+    width: 512px;
+    height: 360px;
+}
+
+.messenger__text h2{
+    font-size: 45px;
+}
+
+.messenger__info1 h3{
+    color: rgb(75, 78, 82);
+    font-size: 17px;
+}
+
+.messenger__info1 p{
+    font-size: 9px;
+    color: rgb(148, 153, 158);
+}
+
+.messenger__info1 a{
+    text-decoration: underline;
+    color: rgb(148, 153, 158);
+}

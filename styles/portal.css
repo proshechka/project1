@@ -1,0 +1,51 @@
+.portal{
+    height: 732px;
+}
+
+.portal__p{
+    position: absolute;
+    font-size: 20px;
+}
+
+.p1{
+    z-index: 1;
+}
+
+.p2{
+    top: 250px;
+    left: 80px;
+    z-index: 2;
+    width: 300px;
+}
+
+.portal__block{
+    height: 696px;
+    width: 1440px;
+    position: relative;
+    display: inline-block;
+}
+
+.p3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86px;
+    width: 499px;
+    background-color: rgb(235, 186, 202);
+    color: rgb(35, 53, 110);
+    z-index: 2;
+    bottom: -25px;
+}
+
+.portal__img{
+    position: relative;
+    width: 84px;
+    height: 54px;
+}
+
+.portal__inf{
+    font-size: 10px;
+    width: 288px;
+    height: 70px;
+    margin: 20px;
+}

@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-size: 25px;
+    align-items: center;
+    color: rgb(35, 53, 110);
+    height: 73px;
+    font-weight: 400;
+  }
+
+.header a{
+    color: rgb(35, 53, 110);
+}

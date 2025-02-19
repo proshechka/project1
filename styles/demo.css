@@ -1,0 +1,41 @@
+.demo{
+    width: 1440px;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, white 50%, rgb(205, 233, 233) 50%);
+}
+
+.demo__block{
+    width: 1264px;
+    position: relative;
+    justify-content: center;
+}
+
+.demo__block h2{
+    width: 650px;
+    height: 80px;
+    font-size: 40px;
+}
+
+.demo__info{
+    justify-content: center;
+    margin: 0 auto;
+    width: 1180px;
+    height: 170px;
+    display: flex;
+}
+
+.demo__info h3,
+.demo__info a{
+    color: rgb(35, 53, 110);;
+}
+
+.demo__text{
+    width: 360px;
+    margin-right: 80px;
+}
+
+.demo__text:last-child {
+    margin-right: 0; 
+}

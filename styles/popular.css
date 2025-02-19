@@ -1,0 +1,34 @@
+.popular{
+    height: 700px;
+}
+
+.popular__block{
+    top: 100px;
+    position: relative;
+    width: 1264px;
+    height: 587px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular__img{
+    position: absolute;
+    z-index: 1;
+}
+
+.popular__product{
+    width: 304px;
+}
+
+.popular__inf{
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    color: white;
+    width: 304px;
+}
+
+.popular__inf a{
+    color: white;
+}
