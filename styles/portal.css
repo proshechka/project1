@@ -15,10 +15,16 @@
     top: 250px;
     left: 80px;
     z-index: 2;
-    width: 300px;
+    width: 400px;
+    height: 300px;
+}
+
+.p2 p{
+    color: rgb(78, 74, 74);
 }
 
 .portal__block{
+    font-weight: 700;
     height: 696px;
     width: 1440px;
     position: relative;
@@ -49,3 +55,22 @@
     height: 70px;
     margin: 20px;
 }
+
+.portal__inf p{
+    font-weight: 400;
+}
+
+.portal h2{
+    color: rgb(35, 53, 110);
+}
+
+.portal a{
+    color: rgb(35, 53, 110);
+    font-size: 15px;
+}
+
+.portal__links{
+    display: flex;
+    justify-content: space-around;
+}
+

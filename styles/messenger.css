@@ -17,16 +17,20 @@
 
 .messenger__text h2{
     font-size: 45px;
+    color: rgb(35, 53, 110);
+    font-weight: 400;
 }
 
 .messenger__info1 h3{
-    color: rgb(75, 78, 82);
+    color: rgb(78, 74, 74);
     font-size: 17px;
+    font-weight: 400;
 }
 
 .messenger__info1 p{
     font-size: 9px;
     color: rgb(148, 153, 158);
+    font-weight: 400;
 }
 
 .messenger__info1 a{

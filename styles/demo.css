@@ -3,7 +3,7 @@
     height: 1100px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to bottom, white 50%, rgb(205, 233, 233) 50%);
+    background: linear-gradient(to bottom, white 50%, #D0E7EA 50%);
 }
 
 .demo__block{
@@ -15,25 +15,38 @@
 .demo__block h2{
     width: 650px;
     height: 80px;
-    font-size: 40px;
+    font-size: 30px;
+    color: rgb(35, 53, 110);
+    font-weight: 700;
 }
 
 .demo__info{
     justify-content: center;
     margin: 0 auto;
     width: 1180px;
-    height: 170px;
+    height: 300px;
     display: flex;
+    font-size: 20px;
 }
 
-.demo__info h3,
 .demo__info a{
-    color: rgb(35, 53, 110);;
+    color: rgb(35, 53, 110);
+    font-weight: 400;
 }
 
 .demo__text{
     width: 360px;
     margin-right: 80px;
+}
+
+.demo__text p{
+    font-weight: 400;
+    color: rgb(78, 74, 74);
+}
+
+.demo__text h3{
+    color: rgb(35, 53, 110);
+    font-weight: 700;
 }
 
 .demo__text:last-child {

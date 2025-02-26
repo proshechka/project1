@@ -5,6 +5,11 @@
 @import "popular.css";
 @import "demo.css";
 @import "messenger.css";
+@import "be-story.css";
+@import "built-in.css";
+@import "design.css";
+@import "products.css";
+@import "footer.css";
 
 .wrapper{
     max-width: 1440px;
@@ -14,3 +19,8 @@
 a{
     text-decoration: none;
 }
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+  }

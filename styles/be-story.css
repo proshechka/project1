@@ -1,0 +1,37 @@
+.be-story{
+    position: relative;
+    height: 800px;
+    width: 1440px;
+}
+
+.be-story__photo{
+    position: absolute;
+    height: 720px;
+    z-index: 1;
+}
+
+.be-story__info{
+    position: relative;
+    z-index: 2;
+    color: white;
+    top: 300px;
+    left: 80px;
+    width: 400px;
+    font-size: 15px;
+    height: 360px;
+}
+
+.be-story__text1{
+    position: relative;
+    top: 30px;
+    font-weight: 700;
+}
+
+.be-story__text p{
+    font-weight: 400;
+}
+
+.be-story__text h3{
+    font-size: 40px;
+    font-weight: 700;
+}
