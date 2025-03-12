@@ -1,14 +1,39 @@
 .header{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    font-size: 25px;
-    align-items: center;
-    color: rgb(35, 53, 110);
-    height: 73px;
-    font-weight: 400;
-  }
+  width: 1440px;
+  height: 73px;
+}
+
+.header__block{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px;
+}
+
+.header__img{
+  margin-left: 50px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  margin-left: 600px;
+}
+
+.header__button {
+  width: 92px;
+  height: 28px;
+  background-color: white;
+  color: #1B365D; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 30px;
+}
 
 .header a{
     color: rgb(35, 53, 110);
 }
+

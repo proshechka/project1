@@ -11,30 +11,40 @@
 </head>
 
 <body>
+    <div class="preloader">
+        <div class="spinner"></div>
+        <p class="loading-text">Загрузка...</p>
+    </div>
     <div class="wrapper">
     <header class="header">
-        <img class="header__img" src="img/Logo.png" alt="" width="108" height="53">
-        <nav class="header__menu">
-            <a class="header__link" href="">Продукты</a>
-            <a class="header__link" href="">Особенности</a>
-            <a class="header__link" href="">Поддержка</a>
-        </nav>
-        <button class="header__button">Вход</button>
+        <div class="header__block">
+            <img class="header__img" src="img/Logo.png" alt="" width="108" height="53">
+            <nav class="header__menu">
+                <a class="header__link" href="">Продукты</a>
+                <a class="header__link" href="">Особенности</a>
+                <a class="header__link" href="">Поддержка</a>
+            </nav>
+            <button class="header__button">Вход</button>
+        </div>
     </header>
     <main class="main">
         <section class="portal">
             <div class="portal__block">
-                <img class="portal__p p1" src="img/Header.png" alt="" width="1440" height="696">
-                <div class="portal__p p2">
+                <img class="portal__img" src="img/Header.png" alt="" width="1440" height="696">
+                <div class="portal__info">
                     <h2>Если вы не можете быть там, почувствуйте это вместе с Portal</h2>
                     <p class="text">Интеллектуальная видеосвязь со встроенной функцией Alexa.</p>
                     <div class="portal__links">
-                        <a class="portal__link" href="">Демонстрация</a>
-                        <a class="portal__link" href="">Сравните Portals</a>
-                    </div>    
+                        <div class="portal__link1">
+                            <a class="portal__link" href="">Демонстрация</a>
+                        </div>
+                        <div class="portal__link2">
+                            <a class="portal__link" href="">Сравните Portals</a>
+                        </div> 
+                    </div>   
                 </div>
-                <div class="portal__p p3">
-                    <img class="portal__img" src="img/img1.png" alt="" width="84" height="54">
+                <div class="portal__act">
+                    <img class="portal__img1" src="img/img1.png" alt="" width="84" height="54">
                     <div class="portal__inf">
                         <h3>Купите любые 2 и сэкономьте 50$*</h3>
                         <p>Отправляем по нескольким адресам без каких-либо дополнительных затрат.</p>
